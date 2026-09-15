@@ -1,0 +1,384 @@
+scenario_id,nominal_leak1_gpm,nominal_leak2_gpm,leak1_opening,leak2_opening,leak1_present,leak2_present,leak_source,status,output_file,error_message,elapsed_seconds,actual_leak1_gpm_mean,actual_leak2_gpm_mean,actual_leak1_gpm_final,actual_leak2_gpm_final
+1,0,0,0,0,0,0,none,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0001_l1_000p00_gpm_l2_000p00_gpm.mat,"",3.3762889,1.57293211489962e-08,3.92908618330431e-09,1.60782248251346e-08,4.00207074303388e-09
+2,10,0,0.1,0,1,0,segment1,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0002_l1_010p00_gpm_l2_000p00_gpm.mat,"",2.9779753,7.41327535873647,3.6143530354237e-09,7.56625752027134,3.70551983500974e-09
+3,20,0,0.2,0,1,0,segment1,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0003_l1_020p00_gpm_l2_000p00_gpm.mat,"",2.7104607,15.0103082139939,3.61215736749546e-09,15.2884786009934,3.69281910988307e-09
+4,30,0,0.3,0,1,0,segment1,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0004_l1_030p00_gpm_l2_000p00_gpm.mat,"",2.9193698,22.6023473030321,3.6108433450759e-09,22.9720366283749,3.68065809448463e-09
+5,40,0,0.4,0,1,0,segment1,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0005_l1_040p00_gpm_l2_000p00_gpm.mat,"",2.4554381,30.1834824937109,3.60925944689907e-09,30.6193120453335,3.66914726040419e-09
+6,50,0,0.5,0,1,0,segment1,failed,,"['pipeline_with_pump_leaks/Reservoir/Solver Configuration']: Transient initialization at time 2.2, solving for consistent states and modes, failed to converge.
+Caused by:
+    Nonlinear solver: failed to converge, residual norm too large.
+        These components have equations that did not converge:
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/Check Valve (TL)')"">'pipeline_with_pump_leaks/Check Valve (TL)'</a>
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 431)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 431)
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 404)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 404)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 92)""> 'foundation.thermal_liquid.port_convection'</a> (line 92)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 468)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 468)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 95)""> 'foundation.thermal_liquid.port_convection'</a> (line 95)
+",18.0903403,NaN,NaN,NaN,NaN
+7,60,0,0.6,0,1,0,segment1,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0007_l1_060p00_gpm_l2_000p00_gpm.mat,"",5.3913526,45.3259759896392,3.60580341236545e-09,45.7863948174,3.64733420703636e-09
+8,70,0,0.7,0,1,0,segment1,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0008_l1_070p00_gpm_l2_000p00_gpm.mat,"",4.357636,52.8726023388497,3.6035697069916e-09,53.3066698689351,3.63789758806924e-09
+9,80,0,0.8,0,1,0,segment1,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0009_l1_080p00_gpm_l2_000p00_gpm.mat,"",4.7299127,60.4131365168916,3.60140300584457e-09,60.7818355953538,3.62997507344165e-09
+10,90,0,0.9,0,1,0,segment1,failed,,"['pipeline_with_pump_leaks/Reservoir/Solver Configuration']: Transient initialization at time 2, solving for consistent states and modes, failed to converge.
+Caused by:
+    Nonlinear solver: failed to converge, residual norm too large.
+        These components have equations that did not converge:
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/Check Valve (TL)')"">'pipeline_with_pump_leaks/Check Valve (TL)'</a>
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 431)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 431)
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 404)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 404)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 92)""> 'foundation.thermal_liquid.port_convection'</a> (line 92)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 468)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 468)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 95)""> 'foundation.thermal_liquid.port_convection'</a> (line 95)
+",22.8710317,NaN,NaN,NaN,NaN
+11,100,0,1,0,1,0,segment1,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0011_l1_100p00_gpm_l2_000p00_gpm.mat,"",4.0232533,74.1005462466589,3.57790023994194e-09,75.3998746155151,3.57810338672306e-09
+12,0,10,0,0.1,0,1,segment2,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0012_l1_000p00_gpm_l2_010p00_gpm.mat,"",6.5446748,1.57278239324329e-08,3.90377925059123,1.60765011672231e-08,3.93981987931137
+13,10,10,0.1,0.1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0013_l1_010p00_gpm_l2_010p00_gpm.mat,"",5.8122611,7.41149385291012,3.75341304318033,7.56628622108789,3.79191467469665
+14,20,10,0.2,0.1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0014_l1_020p00_gpm_l2_010p00_gpm.mat,"",5.0359897,15.0073036395613,3.75287931262524,15.2884438176964,3.78548612718285
+15,30,10,0.3,0.1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0015_l1_030p00_gpm_l2_010p00_gpm.mat,"",5.2262956,22.5992550839429,3.75239207756838,22.9719286705979,3.77932175804848
+16,40,10,0.4,0.1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0016_l1_040p00_gpm_l2_010p00_gpm.mat,"",4.7944273,30.1842576041663,3.75190180658418,30.6192018592018,3.77348196730943
+17,50,10,0.5,0.1,1,1,both,failed,,"Solver encountered an error while simulating model '<a href=""matlab:open_system ('pipeline_with_pump_leaks')"">pipeline_with_pump_leaks</a>' at time 2.6008983908718326 and cannot continue. Please check the model for errors.
+Caused by:
+    Solver was unable to reduce the step size without violating the minimum step size value of 9.24025E-15 for 1 consecutive times at time 2.6009. This usually may be caused by violating algebraic constraints in the differential-algebraic system or by the high stiffness of the system. Try tightening the error tolerances, and/or the tolerances for computing consistent conditions. If the problem persists, please check the system or increase the solver <a href=""matlab:configset.internal.open('_E_S_O_','MaxConsecutiveMinStep');"">Number of consecutive min steps</a> violation parameter. 
+Suggested Actions:
+    • Open Solver Profiler to explore such issues - <a href=""matlab:solverprofiler.launchSolverProfiler"">Open</a>
+",15.1141172,NaN,NaN,NaN,NaN
+18,60,10,0.6,0.1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0018_l1_060p00_gpm_l2_010p00_gpm.mat,"",5.2229536,45.3313448307385,3.75114371944077,45.7862661694871,3.76243265199767
+19,70,10,0.7,0.1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0019_l1_070p00_gpm_l2_010p00_gpm.mat,"",3.8591636,52.8890220859791,3.75078658224644,53.3064689988464,3.75766538259181
+20,80,10,0.8,0.1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0020_l1_080p00_gpm_l2_010p00_gpm.mat,"",4.3807805,60.4344230269848,3.75056392890121,60.7817853346321,3.75368735246325
+21,90,10,0.9,0.1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0021_l1_090p00_gpm_l2_010p00_gpm.mat,"",10.9597491,67.9595738030321,3.7504054401185,68.2090764219315,3.75111746395086
+22,100,10,1,0.1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0022_l1_100p00_gpm_l2_010p00_gpm.mat,"",3.8277867,74.0999794678222,3.75029532442456,75.3992169503914,3.75029532466451
+23,0,20,0,0.2,0,1,segment2,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0023_l1_000p00_gpm_l2_020p00_gpm.mat,"",7.2954569,1.5692480936704e-08,7.89581362788909,1.60752169397427e-08,7.97523095500039
+24,10,20,0.1,0.2,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0024_l1_010p00_gpm_l2_020p00_gpm.mat,"",5.585495,7.41165499163459,7.60251651455704,7.56627654899874,7.67872029176946
+25,20,20,0.2,0.2,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0025_l1_020p00_gpm_l2_020p00_gpm.mat,"",5.1076726,15.0090371612867,7.60155471991905,15.2883782489052,7.66590557569392
+26,30,20,0.3,0.2,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0026_l1_030p00_gpm_l2_020p00_gpm.mat,"",5.4982376,22.6017016665732,7.60056939566473,22.971997983955,7.65359744479609
+27,40,20,0.4,0.2,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0027_l1_040p00_gpm_l2_020p00_gpm.mat,"",4.5127354,30.1875518672952,7.59964138975535,30.618934563589,7.64200278881522
+28,50,20,0.5,0.2,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0028_l1_050p00_gpm_l2_020p00_gpm.mat,"",5.7087577,37.7683420268811,7.59898823462993,38.2233093080046,7.63058983780402
+29,60,20,0.6,0.2,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0029_l1_060p00_gpm_l2_020p00_gpm.mat,"",5.1880769,45.3364866345131,7.59823999081536,45.7860409806898,7.62006289829242
+30,70,20,0.7,0.2,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0030_l1_070p00_gpm_l2_020p00_gpm.mat,"",4.1752255,52.8953239817299,7.59749075425008,53.3065209809114,7.61065043287769
+31,80,20,0.8,0.2,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0031_l1_080p00_gpm_l2_020p00_gpm.mat,"",4.1416766,60.439748787685,7.59706758530507,60.7816703761795,7.60283286458837
+32,90,20,0.9,0.2,1,1,both,failed,,"['pipeline_with_pump_leaks/Reservoir/Solver Configuration']: Transient initialization at time 2, solving for consistent states and modes, failed to converge.
+Caused by:
+    Nonlinear solver: failed to converge, residual norm too large.
+        These components have equations that did not converge:
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/Check Valve (TL)')"">'pipeline_with_pump_leaks/Check Valve (TL)'</a>
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 431)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 431)
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 404)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 404)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 92)""> 'foundation.thermal_liquid.port_convection'</a> (line 92)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 468)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 468)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 95)""> 'foundation.thermal_liquid.port_convection'</a> (line 95)
+",21.9843213,NaN,NaN,NaN,NaN
+33,100,20,1,0.2,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0033_l1_100p00_gpm_l2_020p00_gpm.mat,"",3.8269515,74.1003711568354,7.59637630018203,75.3996610427057,7.59637630071086
+34,0,30,0,0.3,0,1,segment2,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0034_l1_000p00_gpm_l2_030p00_gpm.mat,"",6.8815081,1.56935603621445e-08,11.8872887418386,1.60735237559904e-08,12.0052488921631
+35,10,30,0.1,0.3,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0035_l1_010p00_gpm_l2_030p00_gpm.mat,"",5.9411704,7.41238109405382,11.4510196907973,7.56625050325109,11.5632068532506
+36,20,30,0.2,0.3,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0036_l1_020p00_gpm_l2_030p00_gpm.mat,"",5.5735739,15.0106637871203,11.4498016819495,15.288240170653,11.5442058914809
+37,30,30,0.3,0.3,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0037_l1_030p00_gpm_l2_030p00_gpm.mat,"",5.3199582,22.60502313848,11.4486284396345,22.9719532462373,11.525904030957
+38,40,30,0.4,0.3,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0038_l1_040p00_gpm_l2_030p00_gpm.mat,"",5.1235693,30.1892320404023,11.4468726925517,30.6190408868046,11.5087294591577
+39,50,30,0.5,0.3,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0039_l1_050p00_gpm_l2_030p00_gpm.mat,"",9.8438427,37.771367409466,11.4459140808415,38.2231991472347,11.4919093012862
+40,60,30,0.6,0.3,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0040_l1_060p00_gpm_l2_030p00_gpm.mat,"",5.480229,45.3438583874134,11.4451185184701,45.7860064818616,11.4763860448567
+41,70,30,0.7,0.3,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0041_l1_070p00_gpm_l2_030p00_gpm.mat,"",4.2538653,52.8970718694423,11.4437977764639,53.3064733392547,11.462615137233
+42,80,30,0.8,0.3,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0042_l1_080p00_gpm_l2_030p00_gpm.mat,"",4.4970274,60.4471704338257,11.4431845892286,60.7812629637201,11.451199450025
+43,90,30,0.9,0.3,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0043_l1_090p00_gpm_l2_030p00_gpm.mat,"",10.3950987,67.9618800954864,11.442626969381,68.2088458505451,11.4445965085286
+44,100,30,1,0.3,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0044_l1_100p00_gpm_l2_030p00_gpm.mat,"",3.5526641,74.1001920989267,11.4420533110168,75.3994519508555,11.4420533118352
+45,0,40,0,0.4,0,1,segment2,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0045_l1_000p00_gpm_l2_040p00_gpm.mat,"",6.9373746,1.57234863822229e-08,15.8862088789822,1.60714966593983e-08,16.0299118188482
+46,10,40,0.1,0.4,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0046_l1_010p00_gpm_l2_040p00_gpm.mat,"",6.0826888,7.41371885118807,15.299643469432,7.56618541598793,15.4454395686569
+47,20,40,0.2,0.4,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0047_l1_020p00_gpm_l2_040p00_gpm.mat,"",4.9411932,15.0133185040319,15.2978424475516,15.2883110949973,15.4203091089948
+48,30,40,0.3,0.4,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0048_l1_030p00_gpm_l2_040p00_gpm.mat,"",5.0950036,22.6041816765194,15.2952366725519,22.9718462108717,15.3963597597371
+49,40,40,0.4,0.4,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0049_l1_040p00_gpm_l2_040p00_gpm.mat,"",5.2130407,30.1906372635021,15.2934931969568,30.6189826091711,15.3737694169095
+50,50,40,0.5,0.4,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0050_l1_050p00_gpm_l2_040p00_gpm.mat,"",6.4365768,37.7738138194348,15.2923945138183,38.2231226412453,15.3517323200561
+51,60,40,0.6,0.4,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0051_l1_060p00_gpm_l2_040p00_gpm.mat,"",5.1889882,45.3485315858537,15.2914370267691,45.7857922074299,15.3314796038442
+52,70,40,0.7,0.4,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0052_l1_070p00_gpm_l2_040p00_gpm.mat,"",2.3962911,52.905671041228,15.2898733525682,53.306227002456,15.3136036126751
+53,80,40,0.8,0.4,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0053_l1_080p00_gpm_l2_040p00_gpm.mat,"",3.2616175,60.4499366891616,15.2889317971013,60.7816034381357,15.2988328736252
+54,90,40,0.9,0.4,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0054_l1_090p00_gpm_l2_040p00_gpm.mat,"",9.6225761,67.9368360162508,15.2878330691785,68.2085498963907,15.2907496556216
+55,100,40,1,0.4,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0055_l1_100p00_gpm_l2_040p00_gpm.mat,"",2.7978964,74.1001239078051,15.2873260741958,75.3993811573401,15.2873260753046
+56,0,50,0,0.5,0,1,segment2,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0056_l1_000p00_gpm_l2_050p00_gpm.mat,"",4.5147233,1.57223493784828e-08,19.8706785933919,1.60701614836517e-08,20.0492165285201
+57,10,50,0.1,0.5,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0057_l1_010p00_gpm_l2_050p00_gpm.mat,"",5.0454781,7.41528020683451,19.1479997699981,7.56617223694627,19.3253391552813
+58,20,50,0.2,0.5,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0058_l1_020p00_gpm_l2_050p00_gpm.mat,"",4.6397861,15.0132129071138,19.1443683797916,15.2881862947974,19.2944329435159
+59,30,50,0.3,0.5,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0059_l1_030p00_gpm_l2_050p00_gpm.mat,"",4.9300448,22.6073004707021,19.142333968985,22.97179406972,19.2649015711141
+60,40,50,0.4,0.5,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0060_l1_040p00_gpm_l2_050p00_gpm.mat,"",4.7176863,30.1941122420157,19.1398717227241,30.6187947734594,19.2371627905378
+61,50,50,0.5,0.5,1,1,both,failed,,"['pipeline_with_pump_leaks/Reservoir/Solver Configuration']: Transient initialization at time 2.2, solving for consistent states and modes, failed to converge.
+Caused by:
+    Nonlinear solver: failed to converge, residual norm too large.
+        These components have equations that did not converge:
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/Check Valve (TL)')"">'pipeline_with_pump_leaks/Check Valve (TL)'</a>
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 431)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 431)
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 404)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 404)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 92)""> 'foundation.thermal_liquid.port_convection'</a> (line 92)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 468)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 468)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 95)""> 'foundation.thermal_liquid.port_convection'</a> (line 95)
+",16.2107987,NaN,NaN,NaN,NaN
+62,60,50,0.6,0.5,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0062_l1_060p00_gpm_l2_050p00_gpm.mat,"",4.9280746,45.3550148315846,19.1375113204618,45.7858971601089,19.185318133828
+63,70,50,0.7,0.5,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0063_l1_070p00_gpm_l2_050p00_gpm.mat,"",4.1132312,52.9158720900972,19.1357646264766,53.3062326942818,19.1636738520156
+64,80,50,0.8,0.5,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0064_l1_080p00_gpm_l2_050p00_gpm.mat,"",3.3394468,60.4601469502587,19.1344849771081,60.7813368069213,19.1458286749907
+65,90,50,0.9,0.5,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0065_l1_090p00_gpm_l2_050p00_gpm.mat,"",6.4755176,67.917935513007,19.1326741495364,68.2089094018466,19.1365037364741
+66,100,50,1,0.5,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0066_l1_100p00_gpm_l2_050p00_gpm.mat,"",2.7775277,74.100416774122,19.1321950991667,75.3997068820335,19.1321951005667
+67,0,60,0,0.6,0,1,segment2,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0067_l1_000p00_gpm_l2_060p00_gpm.mat,"",3.3997614,1.57207330525225e-08,23.850378927062,1.60683126468393e-08,24.0631672022557
+68,10,60,0.1,0.6,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0068_l1_010p00_gpm_l2_060p00_gpm.mat,"",3.8061982,7.41458727549616,22.9935607075672,7.56606707635476,23.2030957512965
+69,20,60,0.2,0.6,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0069_l1_020p00_gpm_l2_060p00_gpm.mat,"",3.4762646,15.0153338045331,22.9911321136069,15.2881200591927,23.1664559957959
+70,30,60,0.3,0.6,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0070_l1_030p00_gpm_l2_060p00_gpm.mat,"",4.4221065,22.6111718447105,22.9888983542628,22.9717141127119,23.1314799091099
+71,40,60,0.4,0.6,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0071_l1_040p00_gpm_l2_060p00_gpm.mat,"",3.7438958,30.1985773498271,22.9860952850101,30.6185559010519,23.0988225698446
+72,50,60,0.5,0.6,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0072_l1_050p00_gpm_l2_060p00_gpm.mat,"",3.7144936,37.782414128951,22.9840060784928,38.2228953951105,23.0669935568987
+73,60,60,0.6,0.6,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0073_l1_060p00_gpm_l2_060p00_gpm.mat,"",4.3896846,45.3585515653875,22.9827119612073,45.7856526679608,23.0379370459285
+74,70,60,0.7,0.6,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0074_l1_070p00_gpm_l2_060p00_gpm.mat,"",3.0695754,52.9216121970884,22.9808930946755,53.306136405074,23.01275612385
+75,80,60,0.8,0.6,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0075_l1_080p00_gpm_l2_060p00_gpm.mat,"",2.8393753,60.4559997372257,22.979260114911,60.7817661158187,22.9921556910858
+76,90,60,0.9,0.6,1,1,both,failed,,"['pipeline_with_pump_leaks/Reservoir/Solver Configuration']: Transient initialization at time 2, solving for consistent states and modes, failed to converge.
+Caused by:
+    Nonlinear solver: failed to converge, residual norm too large.
+        These components have equations that did not converge:
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/Check Valve (TL)')"">'pipeline_with_pump_leaks/Check Valve (TL)'</a>
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 431)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 431)
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 404)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 404)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 92)""> 'foundation.thermal_liquid.port_convection'</a> (line 92)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 468)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 468)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 95)""> 'foundation.thermal_liquid.port_convection'</a> (line 95)
+",11.9970968,NaN,NaN,NaN,NaN
+77,100,60,1,0.6,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0077_l1_100p00_gpm_l2_060p00_gpm.mat,"",2.9712314,74.1003766448396,22.9760992014178,75.3996916719078,22.9760992041518
+78,0,70,0,0.7,0,1,segment2,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0078_l1_000p00_gpm_l2_070p00_gpm.mat,"",3.6740079,1.57188617438676e-08,27.8251893856522,1.60662398675046e-08,28.0716537062708
+79,10,70,0.1,0.7,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0079_l1_010p00_gpm_l2_070p00_gpm.mat,"",3.836605,7.41666403472076,26.8407954891375,7.56608546026984,27.078261420194
+80,20,70,0.2,0.7,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0080_l1_020p00_gpm_l2_070p00_gpm.mat,"",3.5295131,15.0185736324042,26.8368874751721,15.2880139516307,27.0362432864281
+81,30,70,0.3,0.7,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0081_l1_030p00_gpm_l2_070p00_gpm.mat,"",3.3708663,22.6132581229974,26.8334375486948,22.9715422091552,26.9960960846596
+82,40,70,0.4,0.7,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0082_l1_040p00_gpm_l2_070p00_gpm.mat,"",3.144533,30.2023516971988,26.8301296357517,30.6184747191788,26.958639461901
+83,50,70,0.5,0.7,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0083_l1_050p00_gpm_l2_070p00_gpm.mat,"",3.6508183,37.7856848571705,26.8279383506599,38.2229327216835,26.9220966307819
+84,60,70,0.6,0.7,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0084_l1_060p00_gpm_l2_070p00_gpm.mat,"",3.3585945,45.3621814384865,26.8261350096076,45.785227366975,26.8890981834199
+85,70,70,0.7,0.7,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0085_l1_070p00_gpm_l2_070p00_gpm.mat,"",2.9983968,52.9178874931998,26.8243636080092,53.3062520403494,26.8605992881226
+86,80,70,0.8,0.7,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0086_l1_080p00_gpm_l2_070p00_gpm.mat,"",3.0654991,60.4714466630572,26.8223335433509,60.7812849481191,26.8376841687758
+87,90,70,0.9,0.7,1,1,both,failed,,"['pipeline_with_pump_leaks/Reservoir/Solver Configuration']: Transient initialization at time 2, solving for consistent states and modes, failed to converge.
+Caused by:
+    Nonlinear solver: failed to converge, residual norm too large.
+        These components have equations that did not converge:
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/Check Valve (TL)')"">'pipeline_with_pump_leaks/Check Valve (TL)'</a>
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 431)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 431)
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 404)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 404)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 92)""> 'foundation.thermal_liquid.port_convection'</a> (line 92)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 468)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 468)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 95)""> 'foundation.thermal_liquid.port_convection'</a> (line 95)
+",12.3655383,NaN,NaN,NaN,NaN
+88,100,70,1,0.7,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0088_l1_100p00_gpm_l2_070p00_gpm.mat,"",3.1578731,74.1003588425487,26.8174075251721,75.3996403452066,26.8174075302058
+89,0,80,0,0.8,0,1,segment2,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0089_l1_000p00_gpm_l2_080p00_gpm.mat,"",3.3609478,1.57171802134914e-08,31.7946331319179,1.60643919460343e-08,32.074399067198
+90,10,80,0.1,0.8,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0090_l1_010p00_gpm_l2_080p00_gpm.mat,"",4.1961721,7.41831563405238,30.6840653485406,7.5659084162242,30.9511514556044
+91,20,80,0.2,0.8,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0091_l1_020p00_gpm_l2_080p00_gpm.mat,"",3.9612268,15.0214963491611,30.6797231951608,15.2877622662242,30.9037249971579
+92,30,80,0.3,0.8,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0092_l1_030p00_gpm_l2_080p00_gpm.mat,"",3.5120673,22.6188959747526,30.6762124911893,22.971417144283,30.858468671556
+93,40,80,0.4,0.8,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0093_l1_040p00_gpm_l2_080p00_gpm.mat,"",3.6558275,30.2110993958116,30.6729416206265,30.618216659337,30.8164460054355
+94,50,80,0.5,0.8,1,1,both,failed,,"Solver encountered an error while simulating model '<a href=""matlab:open_system ('pipeline_with_pump_leaks')"">pipeline_with_pump_leaks</a>' at time 2.2000000288097792 and cannot continue. Please check the model for errors.
+Caused by:
+    Solver was unable to reduce the step size without violating the minimum step size value of 7.81597E-15 for 1 consecutive times at time 2.2. This usually may be caused by violating algebraic constraints in the differential-algebraic system or by the high stiffness of the system. Try tightening the error tolerances, and/or the tolerances for computing consistent conditions. If the problem persists, please check the system or increase the solver <a href=""matlab:configset.internal.open('_E_S_O_','MaxConsecutiveMinStep');"">Number of consecutive min steps</a> violation parameter. 
+Suggested Actions:
+    • Open Solver Profiler to explore such issues - <a href=""matlab:solverprofiler.launchSolverProfiler"">Open</a>
+",5.5913082,NaN,NaN,NaN,NaN
+95,60,80,0.6,0.8,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0095_l1_060p00_gpm_l2_080p00_gpm.mat,"",3.3788404,45.3722557095913,30.6674156870168,45.784871109581,30.7385675668808
+96,70,80,0.7,0.8,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0096_l1_070p00_gpm_l2_080p00_gpm.mat,"",3.1155207,52.9364720705684,30.6650767517469,53.305444947981,30.7070454790894
+97,80,80,0.8,0.8,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0097_l1_080p00_gpm_l2_080p00_gpm.mat,"",2.9334064,60.4850891196772,30.6629459067648,60.7808447504686,30.6821797765356
+98,90,80,0.9,0.8,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0098_l1_090p00_gpm_l2_080p00_gpm.mat,"",5.9367838,67.90636214732,30.6559332234304,68.2083459322505,30.6661069707294
+99,100,80,1,0.8,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0099_l1_100p00_gpm_l2_080p00_gpm.mat,"",2.8018109,74.1003625710714,30.6547901891688,75.3996676263881,30.6547901968907
+100,0,90,0,0.9,0,1,segment2,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0100_l1_000p00_gpm_l2_090p00_gpm.mat,"",4.8027654,1.56993769180842e-08,35.7455215387354,1.60622139431579e-08,36.0715357349721
+101,10,90,0.1,0.9,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0101_l1_010p00_gpm_l2_090p00_gpm.mat,"",3.8947701,7.41976870912274,34.5250261016112,7.56587924447683,34.8212177849504
+102,20,90,0.2,0.9,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0102_l1_020p00_gpm_l2_090p00_gpm.mat,"",3.395688,15.0224154718567,34.5193570480745,15.2877608506658,34.7686170893966
+103,30,90,0.3,0.9,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0103_l1_030p00_gpm_l2_090p00_gpm.mat,"",3.6394763,22.6261236256128,34.5168422380448,22.9710066965907,34.7187203367264
+104,40,90,0.4,0.9,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0104_l1_040p00_gpm_l2_090p00_gpm.mat,"",3.2517834,30.2193530305856,34.5131570441735,30.6178106010671,34.6720809774834
+105,50,90,0.5,0.9,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0105_l1_050p00_gpm_l2_090p00_gpm.mat,"",3.5266236,37.8054678604243,34.5095169954822,38.2220152663401,34.627003274172
+106,60,90,0.6,0.9,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0106_l1_060p00_gpm_l2_090p00_gpm.mat,"",3.6550717,45.3797572319846,34.5057851152963,45.7846948162117,34.5862858876419
+107,70,90,0.7,0.9,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0107_l1_070p00_gpm_l2_090p00_gpm.mat,"",2.8205841,52.9535842599746,34.5039822318821,53.3050527735243,34.551731036686
+108,80,90,0.8,0.9,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0108_l1_080p00_gpm_l2_090p00_gpm.mat,"",2.8830661,60.4589570424911,34.497081153118,60.7804644368634,34.5250903420299
+109,90,90,0.9,0.9,1,1,both,failed,,"['pipeline_with_pump_leaks/Reservoir/Solver Configuration']: Transient initialization at time 2, solving for consistent states and modes, failed to converge.
+Caused by:
+    Nonlinear solver: failed to converge, residual norm too large.
+        These components have equations that did not converge:
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/Check Valve (TL)')"">'pipeline_with_pump_leaks/Check Valve (TL)'</a>
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+Equation location is:
+'fluids.thermal_liquid.valves.pressure_control_valves.pressure_compensator_valve'(no line number info)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 431)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 431)
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 404)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 404)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 92)""> 'foundation.thermal_liquid.port_convection'</a> (line 92)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PumpSystem/Main Pump')"">'pipeline_with_pump_leaks/PumpSystem/Main Pump'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('fluids.thermal_liquid.pumps_motors.centrifugal_pump'), 468)""> 'fluids.thermal_liquid.pumps_motors.centrifugal_pump'</a> (line 468)
+
+<a href=""matlab:das_dv_hyperlink('DAS', 'mdl', 'pipeline_with_pump_leaks/PipeSegment1A')"">'pipeline_with_pump_leaks/PipeSegment1A'</a>
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 46)""> 'foundation.thermal_liquid.port_convection'</a> (line 46)
+Equation location is:
+<a href=""matlab:opentoline(which('foundation.thermal_liquid.port_convection'), 95)""> 'foundation.thermal_liquid.port_convection'</a> (line 95)
+",11.01869,NaN,NaN,NaN,NaN
+110,100,90,1,0.9,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0110_l1_100p00_gpm_l2_090p00_gpm.mat,"",2.8376524,74.1003598501571,34.4881078731046,75.3996649065172,34.4881078826681
+111,0,100,0,1,0,1,segment2,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0111_l1_000p00_gpm_l2_100p00_gpm.mat,"",3.4487828,1.57127941913903e-08,39.6199203315227,1.60596695298636e-08,39.9637253482991
+112,10,100,0.1,1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0112_l1_010p00_gpm_l2_100p00_gpm.mat,"",4.3512844,7.41932963398874,38.2657330677403,7.56577542001969,38.5925549386406
+113,20,100,0.2,1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0113_l1_020p00_gpm_l2_100p00_gpm.mat,"",3.9424427,15.0260729788753,38.2625574590755,15.2874401992333,38.5351573689514
+114,30,100,0.3,1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0114_l1_030p00_gpm_l2_100p00_gpm.mat,"",3.920973,22.6269475806745,38.2583208438427,22.9708558066106,38.4804699298118
+115,40,100,0.4,1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0115_l1_040p00_gpm_l2_100p00_gpm.mat,"",3.7507772,30.2275900273321,38.2563765792536,30.6176709891891,38.4296785055349
+116,50,100,0.5,1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0116_l1_050p00_gpm_l2_100p00_gpm.mat,"",6.4358151,37.8178293926056,38.2530545538644,38.221570228064,38.380723112739
+117,60,100,0.6,1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0117_l1_060p00_gpm_l2_100p00_gpm.mat,"",5.8080466,45.3930444143961,38.2483552763449,45.7842726937995,38.3365806367266
+118,70,100,0.7,1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0118_l1_070p00_gpm_l2_100p00_gpm.mat,"",6.413493,52.9646184212322,38.2456612888149,53.3046059346683,38.2988170929203
+119,80,100,0.8,1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0119_l1_080p00_gpm_l2_100p00_gpm.mat,"",5.9037894,60.4110623516129,38.2329488063772,60.7804148534257,38.2696176429673
+120,90,100,0.9,1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0120_l1_090p00_gpm_l2_100p00_gpm.mat,"",6.704053,67.8925492591574,38.2254140211302,68.207658148158,38.2436936111186
+121,100,100,1,1,1,1,both,completed,C:\Users\agarcian\OneDrive - MathWorks\Documents\CSE Info\Accounts\TAMU\SPE Student Group\pipeline-design-with-matlab-and-simulink\synthetic_leak_data\20260915_123012\scenario_0121_l1_100p00_gpm_l2_100p00_gpm.mat,"",6.6787192,74.100387058063,38.2239887351065,75.399684216762,38.2239887434988
