@@ -1,3 +1,5 @@
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=armandogarcia17/Pipeline-Leak-Classification-Agentic)
+
 <img width="3505" height="1268" alt="readme image" src="https://github.com/user-attachments/assets/b29849df-1de4-4829-a492-bc958596c31a" />
 
 # Pipeline Design with MATLAB and Simulink
